@@ -1,0 +1,29 @@
+.logo{
+  object-fit: contain;
+  height: 55px;
+  width: 80px;
+}
+
+.Nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+transition-timing-function: ease-in-out;
+transition: all 0.5s
+
+}
+
+.nav_avatar{
+  position: fixed;
+  margin-right: 20px;
+}
+
+.notshow{
+  background-color: transparent;
+
+}
+
